@@ -1,0 +1,169 @@
+::-webkit-input-placeholder { /* Para navegadores baseados em Webkit, como o Chrome e o Safari */
+    color: #0A3871;
+}
+:-moz-placeholder { /* Para o Firefox */
+    color: #0A3871;
+    opacity: 1;
+}
+::-moz-placeholder { /* Para o Firefox */
+    color: #0A3871;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Para o Internet Explorer e o Edge */
+    color: #0A3871;
+}
+
+
+@media only screen and (max-width: 767px) {
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    background-color: #E5E5E5
+}
+
+.container1>.logo>img {
+ display: none;
+}
+
+.digiteTexto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 3%;
+    
+}
+
+.digiteTexto>form>input{
+    margin-bottom: 15%;
+    border: none;
+    background-color: #E5E5E5;
+    font-size: 24px;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+span{
+    font-size: 12px;
+}
+
+span>img{
+    width: 10px;
+}
+
+
+.botoes{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+
+#one{
+    font-size: 20px;
+    font-weight: 400;
+    width: 275px;
+    height: 50px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#one:hover {
+    background: #035fcf;
+}
+
+#two{
+    font-size: 20px;
+    font-weight: 400;
+    width: 275px;
+    height: 50px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+#two:hover {
+    background: #a9c4e6;
+}
+
+#foto{
+    display: none;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.container2>h2{
+    text-align: center;
+}
+
+#text-cripto{
+    padding: 2rem;
+    color: #0A3871;
+    font-size: 35px;
+    resize: none;
+    border: none;
+    width: 15em;
+    height: 100%;
+    background: #F3F5FC;
+    outline: 0;
+    display: none;
+    border-radius: 30px;
+}
+
+#copiar{
+    font-size: 20px;
+    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#copiar:hover {
+    background: #035fcf;
+}
+ 
+footer{
+    display: none;
+}
+
+}
+
+
+@media only screen and (max-width: 479px) {
+
+  .caixa{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+ 
+  @media only screen and (max-width: 1198px) {
+      footer{
+          display: none;
+      }
+
+  }
+

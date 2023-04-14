@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="icon" href="./IMG/teclado.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    
+    
+</head>
+
+<body>
+    <div class="caixa">
+        <section class="container1">
+            <header class="logo">
+                <img src="./IMG/logo.png">
+            </header>
+
+            <main class="digiteTexto">
+                <form>
+                    <label></label>
+                    <input type="text" id="texto" name="texto" placeholder="Digite seu texto">
+                    <div class="alerta">
+                        <i><span id="text-alerta"><img id="img-alerta" src="./IMG/alerta.png">Apenas letras minúsculas e
+                                sem acento.</span></i>
+                    </div>
+                </form>
+
+
+                <div class="botoes">
+
+
+                    <button onclick="criptografar()" id="one">Criptografar</button>
+                    <button onclick="descriptografar()" id="two">Descriptografar</button>
+                </div>
+            </main>
+
+        </section>
+        <section id="apareceTexto1" class="apareceTexto">
+            <div class="container2">
+                <img id="foto" src="./IMG/mulher.png">
+                <h2 id="text-h2">Nenhuma mensagem<br> encontrada</h2>
+                <p id="text-p">Digite um texto que você deseja<br> criptografar ou descriptografar.</p>
+                <textarea disabled name="" id="text-cripto"></textarea>
+                <button id="copiar" onclick="copiar()">Copiar</button>
+
+            </div>
+
+    
+    </section>
+</div>
+
+    <footer>
+        <div class="rodape">
+            <h1 class="miller">Miller Santiago</h1>
+            <a href=""><img src="./IMG/miller.jpeg"></a>
+        </div>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/miller-santiago-799bb3150/" target="_blank" title="Linkedin"><img src="./IMG/linkedin.png"></a>
+            <a href="https://github.com/miller110" target="_blank"><img src="./IMG/github.png" title="Github"></a>
+        </div>
+
+        <script src="script.js"></script>
+
+    </footer>
+</body>
+
+</html>

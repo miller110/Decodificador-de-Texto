@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+.container1{
+    position: relative;
+}
+
+.container1>.logo>img {
+    margin-top: 30px;
+    position: absolute;
+    left: -100px;
+}
+
+.digiteTexto{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-left: 3%;
+}
+
+.digiteTexto>form>input{
+    margin-bottom: 15%;
+    border: none;
+    background-color: #E5E5E5;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0A3871;
+}
+
+.alerta{
+    display: flex;
+    flex-direction: row;
+    margin-top: 190px;
+    margin-bottom: 10px;
+
+}
+
+span{
+    font-size: 14px;
+}
+
+span>img{
+    width: 12px;
+}
+
+.botoes{
+    display: flex;
+    gap: 30px;
+}
+
+
+
+#one {
+    font-size: 20px;
+    font-weight: 400;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#one:hover {
+    background: #035fcf;
+}
+
+#two {
+    font-size: 20px;
+    font-weight: 400;
+    width: 328px;
+    height: 67px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+#two:hover {
+    background: #a9c4e6;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+.container2>h2{
+    text-align: center;
+}
+
+#text-cripto{
+    padding: 2rem;
+    color: #0A3871;
+    font-size: 35px;
+    resize: none;
+    border: none;
+    width: 15em;
+    height: 50vh;
+    background: #F3F5FC;
+    outline: 0;
+    display: none;
+    border-radius: 30px;
+}
+
+#copiar{
+    font-size: 20px;
+    font-weight: 400;
+    width: 200px;
+    height: 30px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+#copiar:hover {
+    background: #035fcf;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer {
+    margin-top: 70px;
+    height: auto;
+    background-image: linear-gradient(180deg, #E5E5E5, #0A3871, black);
+    text-align: center;
+    border-top: 5px solid white
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape>h1 {
+    color: #0A3871;
+    text-align: center;
+}
+
+.rodape>a>img {
+    width: 60px;
+    border-radius: 100%;
+}
+
+.rodape>p {
+    text-align: center;
+    color: white;
+}
+
+.redes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+  
+
+
+
+
+
+
+
+  
+
+
+  
+
+
