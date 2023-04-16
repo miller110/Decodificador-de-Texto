@@ -9,8 +9,9 @@ Caso contrário, a função continua.*/
 if (texto !== texto.toLowerCase() || regex.test(texto)) {
     alert("O texto deve conter apenas letras minúsculas e sem acento!");
     document.getElementById("texto").focus();
-return;
+    return;
 }
+
 
 document.getElementById("texto").focus();
 

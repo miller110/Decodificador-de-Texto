@@ -106,6 +106,10 @@ span>img{
     text-align: center;
 }
 
+.container2>p{
+    margin-top: 10px;
+}
+
 #text-cripto{
     padding: 2rem;
     color: #0A3871;
@@ -145,11 +149,12 @@ span>img{
 }
 
 footer {
-    margin-top: 70px;
-    height: auto;
+    margin-top: 175px;
+    height: max-content;
     background-image: linear-gradient(180deg, #E5E5E5, #0A3871, black);
     text-align: center;
-    border-top: 5px solid white
+    border-top: 5px solid white;
+  
 }
 
 .rodape {
@@ -164,21 +169,26 @@ footer {
     text-align: center;
 }
 
-.rodape>a>img {
-    width: 60px;
+.logos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.logos>a>#miller {
+    width: 50px;
     border-radius: 100%;
 }
 
-.rodape>p {
-    text-align: center;
-    color: white;
+.logos>a>img{
+    width: 30px;
 }
 
-.redes{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
+
+
 
   
 
